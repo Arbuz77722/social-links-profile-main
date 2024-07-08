@@ -1,19 +1,11 @@
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
   .container {
-    margin: 5rem 1rem;
+    max-width: 90%;
+    min-height: 80vh;
+    margin: 2rem auto;
+    padding: 2rem 1rem;
   }
-  .sm-profile {
-    max-width: 38rem;
-    padding: 3rem 4rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .container {
-    margin: 5rem 1rem;
-  }
-  .sm-profile {
-    max-width: 100rem;
-    padding: 3rem 4rem;
+  html {
+    font-size: 60%;
   }
 }
