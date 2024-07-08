@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  display: grid;
+  justify-content: center;
+}
+.container {
+  margin: 9rem auto;
+}
+.sm-profile {
+  max-width: 35rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 11px;
+}
+
+.profile-header h1 {
+  font-size: 2rem;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.profile-header h2 {
+  font-size: 1.1rem;
+
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+.list li {
+  width: 27rem;
+}
+
+.link:link,
+.link:visited {
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.link:hover,
+.link:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

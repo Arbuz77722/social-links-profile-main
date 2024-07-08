@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+  .container {
+    margin: 5rem 1rem;
+  }
+  .sm-profile {
+    max-width: 38rem;
+    padding: 3rem 4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin: 5rem 1rem;
+  }
+  .sm-profile {
+    max-width: 100rem;
+    padding: 3rem 4rem;
+  }
+}
